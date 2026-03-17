@@ -1311,14 +1311,14 @@ loadstring(game:HttpGet("https://github.com/FilteringEnabled/NamelessAdmin/blob/
 AdminTab:CreateButton({
  Name = "OtherGame-Yba-Farm",
  Callback = function()
-loadstring(game:HttpGet('https://raw.githubusercontent.com/KieurOo/MadeByForcass/refs/heads/main/YbaScriptOp'))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/KieurOo/MadeByForcass/refs/heads/main/YbaScriptOps'))()
  end,
 })
 
 AdminTab:CreateButton({
  Name = "99 Nights",
  Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/VapeVoidware/VW-Add/main/nightsintheforest.lua", true))()
+loadstring(game:HttpGet("", true))()
  end,
 })
 
@@ -1326,7 +1326,7 @@ AdminTab:CreateButton({
  Name = "BladeBall",
  Callback = function()
 getgenv().visualizer = true
-loadstring(game:HttpGet("https://raw.githubusercontent.com/1f0yt/community/main/RedCircleBlock"))()
+loadstring(game:HttpGet(""))()
  end,
 })
 
